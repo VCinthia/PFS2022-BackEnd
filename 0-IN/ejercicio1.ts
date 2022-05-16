@@ -1,0 +1,17 @@
+console.log(" --------- ");
+console.log("Cocinar una torta:");
+console.log("• Ingredientes: Harina 2tz, Huevo 3 unid., Aceite 1/2 tz, Azucar 1tz.");
+console.log("• Mezclar Azucar con Huevos y Aceite. Incorporar la Harina");
+console.log("• Enmantecar un molde y enharinar");
+console.log("• Rellenar con la mezcla y cocinar a fuego medio-bajo por 45'");
+console.log("• Retirar y revisar la coccion con un cuchillo");
+console.log(" --------- ");
+console.log("Mostrar un mensaje por pantalla:");
+console.log("• Abrimos el editor de texto");
+console.log("• Elejimos el archivo que queremos que emita el mensaje: ejemplo 'ejercicio1.ts'");
+console.log("• En el escribimos 'console.log('mensaje a enviar')");
+console.log("  - Nota: se deben usar comillas dobles, no simples.");
+console.log("• Abrimos la terminal desde el editor de texto: 'Terminal -> New terminal'");
+console.log("• Escribimos 'node nombre del archivo.ts', en nuestro caso: node ejemplo1.ts");
+console.log("• Vemos que la consola devuelve nuestro mensaje almacenado");
+console.log(" --------- ");

@@ -1,0 +1,10 @@
+var mauricio;
+mauricio = 1;
+console.log(mauricio);
+mauricio = 100;
+console.log(mauricio);
+var cantidadItems;
+cantidadItems = 1;
+console.log(cantidadItems);
+cantidadItems = cantidadItems * 2;
+console.log(cantidadItems);

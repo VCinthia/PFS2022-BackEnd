@@ -26,7 +26,8 @@ for(i; i<n; i++){
     
 }
 
-console.log("Listado del arreglo: ", arregloUsuario);
+/*console.log("Listado del arreglo: ", arregloUsuario);*/
+console.log(`Listado del arreglo:  [${arregloUsuario}]`);
 
 console.log("La cantidad de numeros positivos es: ", numPositivos);
 console.log("La cantidad de numeros negativos es: ", numNegativos);

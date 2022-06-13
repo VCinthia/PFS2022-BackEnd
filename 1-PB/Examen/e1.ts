@@ -57,3 +57,4 @@ function promedioSemVendedor( vendedor:number []): number{
 console.log("El promedio de ", ventasCamila.toString, " es: ", promedioSemVendedor(ventasCamila));
 
 
+//pullrequest

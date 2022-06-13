@@ -1,0 +1,142 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #71807f;
+    align-items: left;
+}
+
+h1, h2{
+    color: #e69988;
+}
+
+.banner{
+    padding: 20px 20px 20px 20px;
+    background-color: #c0dbda;
+    border-radius: 15px;
+    display:inline-flex;
+    align-items: center;
+    margin-bottom: 20px;/*para separar un div de otro*/
+    
+}
+
+.img-perfil{
+    width: 20%;
+    height: 20%;   
+    margin-right: 20px;/*para separar imagen de texto pegado*/
+    /* los siguientes valores son independientes del tamaño del círculo */
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
+}
+
+.experiencia{
+    padding: 20px 20px 20px 20px;
+    background-color: #c0dbda;
+    border-radius: 15px;
+    
+    margin-bottom: 20px;/*para separar un div de otro*/
+}
+
+.formacion{
+    padding: 20px 20px 20px 20px;
+    background-color: #c0dbda;
+    border-radius: 15px;
+    
+    margin-bottom: 20px;/*para separar un div de otro*/
+}
+
+
+.skills {
+    padding: 20px 20px 20px 20px;
+    background-color: #c0dbda;
+    border-radius: 15px;
+    margin-bottom: 20px;/*para separar un div de otro*/
+
+    padding-right: 1px;
+    padding-top: 1px; /* Add top padding */    
+    /* */
+  }
+
+
+.ingles {
+    margin: 1px;
+    width: 60%;
+    background-color: #919E95;
+    border-radius: 15px;
+    display: inline-block;
+} /* Dark Grey */
+
+.html {
+  margin: 1px;
+    width: 60%;
+     background-color: #919E95;
+     border-radius: 15px;
+     display: inline-block;
+} /* Dark Grey */
+
+
+.typescript {
+  margin: 1px;
+  width: 20%;
+   background-color: #919E95;
+   border-radius: 15px;
+   display: inline-block;
+} /* Dark Grey */
+
+.bdd {
+  margin: 1px;
+  width: 40%;
+   background-color: #919E95;
+   border-radius: 15px;
+   display: inline-block;
+} /* Dark Grey */
+
+.officepackwps {
+  margin: 1px;
+  width: 70%;
+   background-color: #919E95;
+   border-radius: 15px;
+   display: inline-block;
+} /* Dark Grey */
+
+.ilustracion {
+  margin: 1px;
+  width: 80%;
+   background-color: #919E95;
+   border-radius: 15px;
+   display: inline-block;
+} /* Dark Grey */
+
+.team {
+  margin: 1px;
+  width: 90%;
+   background-color: #919E95;
+   border-radius: 15px;
+   display: inline-block;
+} /* Dark Grey */
+
+.comunicacion {
+  margin: 1px;
+  width: 90%;
+   background-color: #919E95;
+   border-radius: 15px;
+   display: inline-block;
+} /* Dark Grey */
+
+.metodologias {
+  margin: 1px;
+  width: 40%;
+   background-color: #919E95;
+   border-radius: 15px;
+   display: inline-block;
+} /* Dark Grey */
+
+
+.git {
+  margin: 1px;
+  width: 40%;
+   background-color: #919E95;
+   border-radius: 15px;
+   display: inline-block;
+} /* Dark Grey */
+

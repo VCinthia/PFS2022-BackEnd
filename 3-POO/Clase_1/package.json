@@ -1,0 +1,14 @@
+{
+  "name": "manejo_texto",
+  "version": "1.0.0",
+  "description": "funciones y ejemplo de manejo secuencial de archivos de texto",
+  "main": "index.js",
+  "scripts": {
+    "test": "cls && tsc manejoTexto.ts && node manejoTexto.js"
+  },
+  "author": "CinthiaPrueba",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.6.4"
+  }
+}

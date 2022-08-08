@@ -1,0 +1,10 @@
+Ejercicios para hacer en grupo:
+1.Genere una cadena con los números del 1 al 100 (usando ciclos), y agreguelos mediante Javascript al cuerpo de la página al presionar un botón.
+2.Hacer una pagina que al presionar un botón cree un div con posición, tamaño y color aleatorio.
+3.Cree una pagina con un input, un checkbox y un boton. Al presionar el boton, si el checkbox está seleccionado debe aparecer un saludo en un h1 y sino en un h2.
+4.Cree una página con un formulario para que los usuarios puedan agregar Nombre, Apellido, Mail y Consulta.
+Al hacer clic en el botón “Enviar” se deberá ejecutar un script que controle que:
+El nombre no sea vacío y tenga entre 3 y 20 caracteres
+El apellido tiene las mismas restricciones que el Nombre
+El mail tiene que ser un mail válido [Números-Letras]@[números-letras].com.[Letras]
+La consulta no puede ser vacía.

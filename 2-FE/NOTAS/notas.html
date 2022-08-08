@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--Favicon para que deje de mostrar error consola
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">    
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">-->
+    <title>DOM HTML JS</title>
+</head>
+<body>
+    <h1>DOM HTML JS</h1>
+
+    <h2>EJEMPLOS DE DOM HTML</h2>
+    <p class="parrafo" id="mi-id">Hola este es mi párrafo con id uno</p>
+    <p class="parrafo" id="mi-id-dos">Hola este es mi párrafo con id dos</p>
+
+    <ul id="lista">
+    <!--Lista hecha en js-->
+        <!--ejemplo createElement :
+            <li class="list">
+                <b>Nombre: </b><span class="text-danger">descripción...</span></b>                
+            </li>
+        -->        
+    </ul>
+    <!--Ejemplo TEMPLATE HTML-->
+    <template id="template-li">
+        <li class="list">
+            <b>Nombre: </b><span class="text-danger">${item}</span>                
+        </li>
+    </template>
+
+    <h2>EJEMPLOS DE BOTONES</h2>
+        <div class="container py-5 bg-warning text-center">
+            <h1>Contador</h1>
+            <button class="btn btn-info">
+                Aumentar
+            </button>
+            <button class="btn btn-danger">
+                Disminuir
+            </button>
+            <h4 class="my-5">
+                Contador:<span id="span">0</span>
+            </h4>
+            <div class="bg-success py-5">
+                <button class="btn btn-dark">Dame click</button>
+            </div>
+        </div>
+
+
+    <script src="notas de DOM.js"></script>
+    <script src="botones.js"></script>
+</body>
+</html>

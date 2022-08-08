@@ -1,0 +1,56 @@
+<!-- Crear una pagina que contenga un input donde el usuario pueda cargar asistencias a clases de tres materias, estas deben indicar, apellido y nombre, fecha y materia. 
+1- Deberá tener un botón "registrar asistencia" cuyo funcionamiento sea agregar el contenido de los datos de la asistencia a una tabla que muestre todas las asistencias indicando sin eliminar los valores cargados previamente.
+2- Crear un botón que se llame "eliminar asistencias" que, al hacer click, elimine todo el contenido de la lista de asistencias.
+3- Las asistencias de cada materia deben tener un color de fondo propio para su individualizacion rapida. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="e2.css" media="screen">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>EJERCICIO 2</title>
+</head>
+<body>
+    <h1>REGISTRO DE ASISTENCIA</h1>
+    
+    <div>
+        <!--Carga de nombre, apellido y fecha-->
+        <div class="input-group">
+            <span class="input-group-text">Carga Nombre y Apellido</span>
+            <input type="text" aria-label="Nombre y Apellido" class="form-control" id="nombre-apellido">
+            <input type="date" aria-label="Fecha" class="form-control" id="fecha">
+        </div>
+        <!--Menu de seleccion de materia:-->
+        <select class="form-select" aria-label="Materias">
+            <option selected>Materias</option>
+            <option value="1">Frontend</option>
+            <option value="2">Backend</option>
+            <option value="3">BDD</option>
+        </select>
+        <!--Contenedor de info devuelta-->
+        <div class="container overflow-hidden">
+            <div class="row gx-5 valores">
+                <div class="col">
+                    <div class="p-3 border bg-light"><span id="devuelNyA">${nombApell}</span></div>
+                </div>
+                <div class="col">
+                    <div class="p-3 border bg-light" type="date"><span id="devuelFecha">${fecha}</span></div>
+                </div>
+                <div class="col">
+                    <div class="p-3 border bg-light"><span id="devuelveMat">${materia}</span></div>
+                </div>
+            </div>
+        </div>
+    </div>    
+    <!--Boton REGISTRAR asistencia-->
+    <button type="button" class="btn btn-primary">Primary</button>
+    <!--Boton ELIMINAR asistencia-->
+    <button type="button" class="btn btn-danger">Danger</button>     
+
+    <script src="e2.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

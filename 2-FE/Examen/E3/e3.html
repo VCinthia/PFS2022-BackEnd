@@ -1,0 +1,110 @@
+<!-- Usando bootstrap arme un sitio web que tenga:
+- Una barra de navegación.
+- Un carrousel de al menos 3 imágenes.
+- El siguiente layout para el contenido principal: -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="e3.css" media="screen">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>EJERCIO 3</title>
+</head>
+<body>
+    <!--NavBar-->
+    <div id="NavBar">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Navbar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </div>
+    <!--Carousel-->
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://medias.musimundo.com/medias/00518005-145617-145617-01-145617-01.jpg-size515?context=bWFzdGVyfGltYWdlc3w1Nzg2MHxpbWFnZS9qcGVnfGhlMS9oN2MvMTAzODE1OTQ2MjQwMzAvMDA1MTgwMDUtMTQ1NjE3LTE0NTYxN18wMS0xNDU2MTdfMDEuanBnX3NpemU1MTV8ODU2NWI4NjIyYmVhOGM1ZTM4ZTRkMTM0OGZjNmMxZDQ3NzdkYjg5MDY5MDU1NDNkYjkxNTRjMmMxNTk3YmQ0ZQ" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://www.lenovo.com/medias/22tpe15e5n2.png?context=bWFzdGVyfHJvb3R8MjgzMTMxfGltYWdlL3BuZ3xoNmEvaGVjLzE0MTExNzEzODg2MjM4LnBuZ3xlM2I4ZGNiODIzODYxOTc2NTU0NzI4NTFiNWRkMGY4OWRhZTBlNjk1ZGMzZDljOGU2OGQwNmM0YzY1YmVmMDdk" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://medias.musimundo.com/medias/00528001-145815-145815-01-145815-01.jpg-size515?context=bWFzdGVyfGltYWdlc3w2Mjk3MnxpbWFnZS9qcGVnfGhjNi9oZDgvMTAzODE3MDA0NjQ2NzAvMDA1MjgwMDEtMTQ1ODE1LTE0NTgxNV8wMS0xNDU4MTVfMDEuanBnX3NpemU1MTV8OTM4Y2E1MjgwMDYyMzJjMjM4NmM5YjUzNGUzZmE4NGM3YTIyZjAyMzkwMTIwNzFlNjJlODYyZjc5MWRkYTQxMQ" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!--Pc Y Mobile-->
+    <div id="pcymobile" class="container">
+        <div class="row ">
+            <div id="a" class=" col-4 col-sm-4 col-md-2 col-lg-2 col-xl-2">
+                <p>A</p>
+            </div>
+            <div id="b" class="col-8 col-sm-8 col-md-4 col-lg-4 col-xl-4">
+                <p>B</p>
+            </div>
+            <div id="c" class="col-8 col-sm-8 col-md-4 col-lg-4 col-xl-4">
+                <p>C</p>
+            </div>
+            <div id="d" class="col-4 col-sm-4 col-md-2 col-lg-2 col-xl-2">
+                <p>C</p>
+            </div>
+            <div id="e" class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                <p>D</p>
+            </div>
+            <div id="f" class="col-8 col-sm-8 col-md-2 col-lg-2 col-xl-2">
+                <p>F</p>
+            </div>
+            <div id="g" class="col-8 col-sm-8 col-md-2 col-lg-2 col-xl-2">
+                <p>G</p>
+            </div>
+            <div id="h" class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                <p>H</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

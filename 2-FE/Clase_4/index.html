@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="avanzado.css">
+    <title>Ejemplos Varios - CSS Avanzado</title>
+</head>
+<body>
+<!-- EJEMPLO DE HERENCIA
+    <h1>Titulo 1</h1>
+    <div>Div1
+        <p>Parrafo dentro de div</p>
+        <h2>Titulo 2 dentro de div</h2>
+    </div>
+    <h2>Titulo 2 fuera de div</h2>
+    <ul>
+        <li>Elemento con <a href="#">link</a></li>
+        <li>Elemento
+            <ol>
+                <li>Primero</li>
+                <li>Segundo</li>
+            </ol>
+        </li>
+    </ul>
+-->
+<!-- EJEMPLO DE COMBINACION DE SELECTORES
+    <div>
+        <h1>Asi esta el Campeonato</h1>
+        <p>El campeonato recien comenzo...</p>
+        <p class="destacado"> Chevrolet ya va primero.</p>
+        <p>Nunca va a ser superado por una marca menor. <span class="especial">Ford</span></p>
+        <ul>
+            <li id="unico">Ortelli, Guillermo - Chevrolet</li>
+            <li>Ledesma, Cristian - Chevrolet</li>
+            <li class="especial">Guri Martinez - Ford</li>
+            <li>Castellano, Jonatan -<span class="especial"> Ford </span></li>
+            <li class="destacado">Canapino, Agustín - Chevrolet</li>
+        </ul>
+    </div> 
+-->
+<!-- EJEMPLO DE SELECTORES ANIDADOS
+    <div>
+        <p>Este es un <a href="link.html">Link</a></p>
+        <ul>
+          <li><a href="link.html">Elemento 1</a></li>
+          <li><a href="link.html">Elemento 2</a></li>
+          <li><a href="link.html">Elemento 3</a></li>
+        </ul>
+        <ol>
+          <li><a href="link.html">Elemento 1</a></li>
+          <li><a href="link.html">Elemento 2</a></li>
+          <li><a href="link.html">Elemento 3</a></li>
+        </ol>        
+    </div> 
+-->
+<!-- EJEMPLO DE SELECTORES COMBINADOS BASADO EN DOM
+    <h1>Titulo 1</h1>
+    <div>Div1
+        <p>Parrafo dentro de div</p>
+        <h2>Titulo dentro de div</h2>
+    </div>
+    <h2>Titulo 2</h2>
+    <h2>Titulo 2</h2>
+    <ul>
+        <li>Elemento 1<a href="link.html">Link 1</a></li>
+        <li>Elemento 2
+            <ol>
+                <li>Primero</li>
+                <li>Segundo</li>
+            </ol>
+        </li>
+    </ul> 
+-->
+<!-- EJEMPLO DE PSEUDO-CLASES
+    <div>
+        <button class="cambiaOver">cambia over</button>
+    </div>
+-->    
+<!-- EJEMPLO DE CASCADA - ESPECIFICIDAD
+    <div>
+        <p>Este es un parrafo</p>
+        <p class="destacada" id="unico"> Este es un parrafo</p>        
+    </div> 
+-->
+<!-- EJEMPLO DE CASCADA - ORDEN
+    <div>
+        <p>Este es un parrafo</p>
+    </div> 
+-->
+<!-- EJEMPLO DE CASCADA SIN Y CON CONFLICTO
+    <h1>Titulo 1</h1>
+    <p>Parrafo 1</p>
+    <div>Div1
+        <h2>Titulo 2 dentro de div</h2>
+        <p>Parrafo dentro de div <a href="...">Link1</a></p>
+    </div>
+    <h2>Titulo 2</h2>
+    <ul>
+        <li>Elemento 1 con <a href="...">Link2</a></li>
+        <li>Elemento 2
+            <ul>
+                <li>Primero</li>
+                <li>Segundo <a href="...">Link3</a></li>
+            </ul>
+        </li>
+    </ul> 
+-->
+<!-- EJEMPLO CON AGRUPAMIENTO DE SELECTORES
+    <div>
+        <p class="aviso">Este es un parrafo aviso</p>
+        <p> Este es un parrafo con <span class="aviso">un span aviso.</span></p>
+        <p>Esto es un parrafo</p>
+        <ul class="aviso">
+          <li>Lista con clase aviso</li>
+        </ul>       
+    </div>
+-->
+<!-- EJERCICIO HERENCIA VS CASCADA
+    <p>Parrafo en Nivel 1</p>
+    <div>
+        <p>Parrafo en <span> Nivel 2</span></p>
+    </div>
+    <p class="destacada" > Parrafo en Nivel 2</p>
+    <p id="unico">Parrafo Unico</p> 
+-->
+</body>
+</html>

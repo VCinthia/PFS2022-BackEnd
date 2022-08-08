@@ -1,0 +1,35 @@
+body{
+    background-color: darkgrey;
+}
+
+.titulo{
+    color: red;
+}
+.bold{
+    font-weight: bolder;
+}
+div{
+    margin-bottom: 20px;
+}
+.img-flex {    
+    display: flex;    
+    flex-direction: row;
+    justify-content:space-around; 
+
+}
+.img-flex img{
+    width: 40%;    
+}
+.div-centrado{   
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    margin: auto;
+    
+}
+.div-centrado img{
+    width: 300px;
+}
+
+

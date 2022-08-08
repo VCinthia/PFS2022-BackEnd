@@ -1,0 +1,27 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+div {
+    width: 300px;
+    display: flex;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+}
+div.circulo {
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+div.ocultar {
+    visibility: hidden;
+}
+.rojo {
+    background-color: red;
+}
+.verde {    
+    background-color: green;
+}
+.amarillo {
+    background-color: yellow;
+}

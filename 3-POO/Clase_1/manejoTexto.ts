@@ -21,5 +21,5 @@ texto = fs.readFileSync('abc.txt', 'utf-8');
 //separamos las palabras en un arreglo usando el espacio como delimitador
 palabras = texto.split(' ');
 //listamos las palabras
-console.log((`Despues: ${palabras}`));
+console.log(`Despues: ${palabras}`);
 

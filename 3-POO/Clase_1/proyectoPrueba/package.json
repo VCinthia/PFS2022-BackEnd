@@ -1,0 +1,11 @@
+{
+  "name": "codificador_mensajes",
+  "version": "1.0.0",
+  "description": "codificar y decodificar mensajes",
+  "main": "index.js",
+  "scripts": {
+    "test": "cls && tsc funcion1.ts && node funcion1.js && tsc funcion2.ts && node funcion2.js"
+  },
+  "author": "CinthiaPruebas",
+  "license": "ISC"
+}

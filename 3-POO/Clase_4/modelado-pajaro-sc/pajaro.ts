@@ -4,9 +4,6 @@ class Pajaro{
     private kmDistancia : number;
         
     private animal : Animal;
-    //push y lenght vienen de pajarera
-    push: any[];
-    lenght: any;
 
     //funcionalidad
     //Extiendo de clase Animal
@@ -22,8 +19,6 @@ class Pajaro{
     public verHorasDormir():number{return this.animal.verHorasDormir();}
     public verEnergiaComer():number{return this.animal.verEnergiaComer()}
     public verPesoComer():number{return this.animal.verPesoComer();}
-    public verKmDist():number{return this.kmDistancia};
-    public verKmEnergia():number{return this.kmEnergia}
     
 
     /*setters*/

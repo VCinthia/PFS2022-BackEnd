@@ -1,0 +1,14 @@
+{
+  "name": "clase_19",
+  "version": "1.0.0",
+  "description": "proyecto para la clase 19",
+  "main": "mauri.js",
+  "scripts": {
+    "test": "cls && tsc manejoTexto.ts && node manejoTexto.js"
+  },
+  "author": "MI",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.7.5"
+  }
+}

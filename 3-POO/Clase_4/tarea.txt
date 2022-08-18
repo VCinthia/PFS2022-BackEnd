@@ -1,0 +1,2 @@
+superclases, herencia, polimorfismo, abstraccion, etc.
+Aplicarlo a mi ejemplo de pajaro

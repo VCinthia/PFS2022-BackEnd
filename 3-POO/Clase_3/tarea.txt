@@ -1,0 +1,6 @@
+Tarea para el jueves:
+Armar una clase que tenga como estado un arreglo de las clases que eligio cada uno.
+El constructor debe iniciar con el arreglo vacio.
+La clase debe tener 2 metodos
+1- para agregar elementos
+2- para eliminar TODOS los elementos.

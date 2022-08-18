@@ -1,0 +1,15 @@
+"use strict";
+exports.__esModule = true;
+var pajareria_1 = require("./pajareria");
+var pajaro_1 = require("./pajaro");
+var golondrina = new pajaro_1["default"]('Golondrina', 15, 16, 100, 1, 8, 2, 1, 'Hirundinidae', 2, 4);
+var lechuza = new pajaro_1["default"]('Lechuza', 25, 150, 100, 4, 8, 5, 30, "Athene Cunicularia", 3, 20);
+var gorrion = new pajaro_1["default"]('Gorrión', 14, 30, 100, 3, 8, 4, 2, 'Passer Domesticus', 1, 20);
+var primerPajareria = new pajareria_1["default"]('Pajareria variada');
+primerPajareria.createPajaros(golondrina);
+primerPajareria.createPajaros(lechuza);
+primerPajareria.createPajaros(gorrion);
+//console.log(primerPajareria.readPajarosTxt());
+console.log(primerPajareria.findPajarosXEspecie('Hirundinidae'));
+console.log(primerPajareria.findPajarosXEspecie('Passer Domesticus'));
+console.log(primerPajareria.findPajaros(golondrina));

@@ -59,9 +59,6 @@ export default class Animal {
             • cuando come recupera: ${this.getEnergiaComer()} puntos de energía, 
             • cuando come gana: ${this.getPesoComer()} gramos de peso. 
             • Por lo tanto cuando duerme `,this.dormir(),`tiene una energía de ${this.getEnergia()} puntos totales, y si luego come `, this.comer(),`tiene una energia  de ${this.getEnergia()} puntos y peso de: ${this.getPeso()} gramos`);
-
-        //no funciona porque no puede acceder a los elementos de la clase por ser privados
-        /* return `El Animal tiene las siguientes características { especie: ${this.especie}, tamaño: ${this.getTamaño()} cm., peso: ${this.getPeso()}, energía inicial: ${this.getEnergia()}, cuando duerme recupera: ${this.getEnergiaDormir()} puntos de energía, duerme: ${this.getHorasDormir()} horas, cuando come recupera: ${this.getEnergiaComer()} puntos de energía, cuando come gana: ${this.getPesoComer()} gramos de peso. Por lo tanto cuando duerme tiene una energía de: ${this.dormir()} puntos totales, y cuando come tiene una energia y peso de: ${this.comer()}, respectivamente. }`*/
     }
 }
 

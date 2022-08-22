@@ -1,0 +1,14 @@
+{
+  "name": "manejotextos",
+  "version": "1.0.0",
+  "description": "clase para manejo de archivos de textos que los guarda en estructura tipo matriz",
+  "main": "index.js",
+  "scripts": {
+    "test": "cls && tsc pruebaManejoTextos.ts && node pruebaManejoTextos.js"
+  },
+  "author": "MI",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.7.6"
+  }
+}

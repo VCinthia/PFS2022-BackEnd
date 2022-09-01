@@ -13,9 +13,4 @@ MTRA.getCantidadFilas();
 
 cantidadFilas = MTRA.getCantidadFilas();
 
-for (let i = 0; i < cantidadFilas; i++) {
-    fila = MTRA.getFila(i);
-    info.push(new registroAutomotor( /**/ ));   //sin terminar 
-}
-console.log(info);
-
+//sin armar

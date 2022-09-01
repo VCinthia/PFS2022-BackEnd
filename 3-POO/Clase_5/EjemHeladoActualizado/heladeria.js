@@ -47,7 +47,7 @@ var Heladeria = /** @class */ (function () {
     Heladeria.prototype.readHeladosTxt = function () {
         var textoHelados = '';
         this.helados.forEach(function (helado) {
-            textoHelados += helado.imprimir() + '\n';
+            textoHelados += helado.imprimir();
         });
         return textoHelados;
     };

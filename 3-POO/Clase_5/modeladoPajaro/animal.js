@@ -31,19 +31,7 @@ var Animal = /** @class */ (function () {
     Animal.prototype.dormir = function () { this.energia += this.horasDormir * this.eDormir; };
     Animal.prototype.comer = function () { this.energia += this.eComer; this.peso += this.pComer; };
     Animal.prototype.imprimir = function () {
-        /* console.log(`El Animal tiene las siguientes características {
-            • especie: ${this.especie},
-            • tamaño: ${this.getTamaño()} cm.,
-            • peso: ${this.getPeso()} gramos,
-            • energía inicial: ${this.getEnergia()} puntos,
-            • cuando duerme recupera: ${this.getEnergiaDormir()} puntos de energía,
-            • duerme: ${this.getHorasDormir()} horas,
-            • cuando come recupera: ${this.getEnergiaComer()} puntos de energía,
-            • cuando come gana: ${this.getPesoComer()} gramos de peso.
-            • Por lo tanto cuando duerme `,this.dormir(),`tiene una energía de ${this.getEnergia()} puntos totales, y si luego come `, this.comer(),`tiene una energia  de ${this.getEnergia()} puntos y peso de: ${this.getPeso()} gramos`);
- */
-        //no funciona porque no puede acceder a los elementos de la clase por ser privados
-        return "El Animal tiene las siguientes caracter\u00EDsticas { especie: ".concat(this.especie, ", tama\u00F1o: ").concat(this.getTamaño(), " cm., peso: ").concat(this.getPeso(), ", energ\u00EDa inicial: ").concat(this.getEnergia(), ", cuando duerme recupera: ").concat(this.getEnergiaDormir(), " puntos de energ\u00EDa, duerme: ").concat(this.getHorasDormir(), " horas, cuando come recupera: ").concat(this.getEnergiaComer(), " puntos de energ\u00EDa, cuando come gana: ").concat(this.getPesoComer(), " gramos de peso. Por lo tanto cuando duerme tiene una energ\u00EDa de: ").concat(this.dormir(), " puntos totales, y cuando come tiene una energia y peso de: ").concat(this.comer(), ", respectivamente. }");
+        console.log("El Animal tiene las siguientes caracter\u00EDsticas { \n            \u2022 especie: ".concat(this.especie, ", \n            \u2022 tama\u00F1o: ").concat(this.getTamaño(), " cm., \n            \u2022 peso: ").concat(this.getPeso(), " gramos, \n            \u2022 energ\u00EDa inicial: ").concat(this.getEnergia(), " puntos, \n            \u2022 cuando duerme recupera: ").concat(this.getEnergiaDormir(), " puntos de energ\u00EDa, \n            \u2022 duerme: ").concat(this.getHorasDormir(), " horas, \n            \u2022 cuando come recupera: ").concat(this.getEnergiaComer(), " puntos de energ\u00EDa, \n            \u2022 cuando come gana: ").concat(this.getPesoComer(), " gramos de peso. \n            \u2022 Por lo tanto cuando duerme "), this.dormir(), "tiene una energ\u00EDa de ".concat(this.getEnergia(), " puntos totales, y si luego come "), this.comer(), "tiene una energia  de ".concat(this.getEnergia(), " puntos y peso de: ").concat(this.getPeso(), " gramos"));
     };
     return Animal;
 }());
@@ -54,3 +42,5 @@ gato.comer();
 console.log("Luego de comer la energia es de ".concat(gato.getEnergia(), " puntos y pesa ").concat(gato.getPeso(), " gramos"));
 gato.dormir();
 console.log("Luego de dormir la energia es de ".concat(gato.getEnergia(), " puntos"));
+gato.setEspecie('perro');
+gato.imprimir();

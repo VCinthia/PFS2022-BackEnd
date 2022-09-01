@@ -22,7 +22,6 @@ export default class Pajaro extends Animal{
     public getKmDistancia() : number {return this.kmDistancia;}
     public setKmDistancia(kmDistancia: number) : void {this.kmDistancia = kmDistancia;}
 
-    //volarDistancia tiene que restar energia-- NO FUNCIONA PORQUE NO PUEDE ACCEDER DESDE PAJARO A ENERGIA DE ANIMAL?     
     public volarDistancia(): void  {this.energia -= this.kmDistancia*this.kmEnergia;}
 
 

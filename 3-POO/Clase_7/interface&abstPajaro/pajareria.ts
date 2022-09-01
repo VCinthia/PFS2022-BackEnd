@@ -32,7 +32,7 @@ export default class Pajareria{
     }
     public deletePajaros(posicion : number) : void {
         if (this.pajaros[posicion])
-        this.pajaros.splice(posicion);//ver 
+        this.pajaros.splice(posicion);
     }
     public readPajaros() : Pajaro[]{
         let pajaros : Pajaro [] = [];

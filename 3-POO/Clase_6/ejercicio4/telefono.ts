@@ -5,7 +5,7 @@ export default class Telefono {
     private llamar : boolean
 
     //ver si el constructor va vacio
-    public constructor(prendido : boolean, bateriaActual : number ){
+    public constructor(prendido : boolean, bateriaActual: number ){
         this.estaPrendido = prendido;
         this.bateriaActual = bateriaActual;
     }
@@ -17,13 +17,13 @@ export default class Telefono {
     public setBateria(bateriaActual: number) : void {this.bateriaActual = bateriaActual;}
 
 
-    public mandarMensaje(mensaje: string) : void {
+    public mandarMensaje(mensaje: string) : void {//OK
         this.mensaje = mensaje;
-        console.log(`el mensaje es ${this.getMensaje()}`);
+        console.log(`El mensaje es ${this.getMensaje()}`);
         
     }
 
-    public hacerLlamada(llamar: boolean): void {
+    public hacerLlamada(llamar: boolean): void {//OK
         if (llamar==false) {
             this.llamar = false;
             console.log('No realizar llamada');
@@ -33,21 +33,21 @@ export default class Telefono {
             console.log('Realizar llamada');}           
     }
     
-    public prenderOApagar():void {
+    public prenderOApagar(): void {//OK
         if (this.estaPrendido) {
             this.estaPrendido = false;
             console.log('Telefono apagado');           
         } else {
-            this.estaPrendido = true; }
-            console.log('Telefono prendido');            
+            this.estaPrendido = true; 
+            console.log('Telefono prendido');}                     
     }
 
 }
 
-let motorola : Telefono = new Telefono (false, 100);//ver que cuando paso por parametro true, me imprimir los dos mensajes de prenderOApagar
+let motorola : Telefono = new Telefono (true, 100);
 
 motorola.mandarMensaje('hola');
 motorola.prenderOApagar();
 motorola.hacerLlamada(false);
-motorola.getBateria();//no me trae el valor de la bateria
+console.log(`La bateria de motorola es ${motorola.getBateria()}`)
 

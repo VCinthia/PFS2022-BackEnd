@@ -69,5 +69,8 @@ gato.comer();
 console.log(`Luego de comer la energia es de ${gato.getEnergia()} puntos y pesa ${gato.getPeso()} gramos`);
 
 gato.dormir();
-console.log(`Luego de dormir la energia es de ${gato.getEnergia()} puntos`);  */
+console.log(`Luego de dormir la energia es de ${gato.getEnergia()} puntos`);
+
+gato.setEspecie('perro');
+gato.imprimir(); */
 

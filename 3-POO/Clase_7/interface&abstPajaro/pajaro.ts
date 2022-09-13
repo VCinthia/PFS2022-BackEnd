@@ -1,16 +1,21 @@
 import Animal from './animal'
+import interfaceParque from './interfaceParque';
 
-export default class Pajaro extends Animal{
+export default class Pajaro extends Animal implements interfaceParque{
     
     private especiePajaro: string;
-    private kmEnergia?: number;
-    private kmDistancia?: number;
+    private kmEnergia: number;
+    private kmDistancia: number;
+    
 
-    public constructor(especie : string, tamaño : number, peso : number, /* energia ?: number, eDormir?: number, horasDormir?: number, eComer?: number, pComer?: number ,*/ especiePajaro: string, kmEnergia : number, kmDistancia : number){
+    public constructor(especiePajaro: string, kmEnergia : number, kmDistancia : number, especie : string, tamaño : number, peso : number, energia : number, eDormir?: number, horasDormir?: number, eComer?: number, pComer?: number ){
         super(especie, tamaño, peso, /* energia, eDormir, horasDormir, eComer, pComer */);
         this.especiePajaro = especiePajaro;
         
-                
+        this.energia = energia;
+
+
+        //arreglar        
         if(kmEnergia == undefined)
             this.kmEnergia = 0;
             else
@@ -21,6 +26,15 @@ export default class Pajaro extends Animal{
             else
             this.kmDistancia = kmDistancia;
         
+    }
+    setZonaParque(zonaParque : string) : void {
+        this.zonaParque = zonaParque;
+    }
+    getZonaParque(): string {
+        return this.zonaParque;
+    }
+    getNombre(): string {
+        throw new Error('Method not implemented.');
     }
 
     public getNombreEspecie() : string {return this.especiePajaro;}
@@ -36,7 +50,10 @@ export default class Pajaro extends Animal{
     //public volarDistancia(): void  {this.energia -= this.kmDistancia*this.kmEnergia;}
 
     getEnergia() : number {
-        throw new Error('Method not implemented.');
+        /* if(this.energia == undefined)
+             return 0;
+            else */
+             return this.energia;
     }
     setEnergia(energia: number): void {
         throw new Error('Method not implemented.');

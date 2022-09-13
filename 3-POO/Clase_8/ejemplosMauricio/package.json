@@ -1,0 +1,11 @@
+{
+  "name": "clase_25",
+  "version": "1.0.0",
+  "description": "proyecto para la clase 25",
+  "main": "mauri.js",
+  "scripts": {
+    "test": "tsc sumarArreglo.ts && node sumarArreglo.js"
+  },
+  "author": "MI",
+  "license": "ISC"
+}

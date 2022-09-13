@@ -17,6 +17,8 @@ export default class Pajareria{
         if (pajaro)
             this.pajaros.push(pajaro);
     }
+
+
     public findPajaros(pajaro : Pajaro) : boolean {
         for (let i = 0; i < this.pajaros.length; i++) { 
             if (this.pajaros[i] == pajaro) 
@@ -26,6 +28,8 @@ export default class Pajareria{
         console.log("El puesto buscado es no existe");
         return false;        
     }
+
+    
     public updatePajaros(pajaro : Pajaro, posicion : number) : void {
         if(pajaro)
         this.pajaros[posicion] = pajaro;

@@ -3,11 +3,13 @@ export default abstract class Animal {
     private especie : string;
     private tamaño : number;
     private peso : number;
-    protected /* abstract */ energia ?: number;// protected para que pueda acceder en volarDistancia() a this.energia
-    private eDormir ?: number;
-    private horasDormir ?: number;
-    private eComer ?: number;
-    private pComer ?: number;
+    protected energia : number = 0;// protected para que pueda acceder en volarDistancia() a this.energia
+    private eDormir : number;
+    private horasDormir : number;
+    private eComer : number;
+    private pComer : number;
+
+    protected zonaParque : string;
 
     constructor(especie : string, tamaño : number, peso : number, energia? : number, eDormir? : number, horasDormir ?: number, eComer ?: number, pComer ?: number){
         this.especie = especie;
@@ -15,10 +17,9 @@ export default abstract class Animal {
         this.peso = peso;
         //constructor con parametros opcionales -> algo?: string
         
-        if(energia == undefined)
-            this.energia = 0;
-            else
-            this.energia = energia;
+        if(energia !== undefined){
+            
+            this.energia = energia;}
         
         if(eDormir == undefined)
             this.eDormir = 0;

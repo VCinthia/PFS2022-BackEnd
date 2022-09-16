@@ -6,3 +6,8 @@
 Material Lectura
 PROYECTO FINAL
 *.js
+3-OO/*/*.js
+/node_modules
+/*/node_modules
+*/*/node_modules
+*/*/*/node_modules

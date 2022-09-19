@@ -1,0 +1,41 @@
+.app {
+    background: #f1f1f1;
+    display: grid;
+    font-family: Arial, Helvetica, sans-serif;
+    grid-template-areas:
+        "encabezado"
+        "contenido"
+        "rodapie";    
+    grid-template-columns: auto;
+    grid-template-rows: 50px auto auto;/*50px del encab, 100vh de cont, auto de rodapie*/
+}
+
+.encabezado {
+    /* background: #00cc99; */
+    align-items: center;
+    display: flex;
+    grid-area: encabezado;    
+    padding: 0 2rem;
+}
+
+.menu__link{
+    color: #333333;
+    padding: .5rem 1rem;
+}
+.menu__link:hover, .menu__link:active{
+    border-bottom: 2px solid #0073e6;
+}
+
+.contenido {
+    /* background: #ff8080; */
+    grid-area: contenido;
+    padding: 0 2rem;
+}
+
+.rodapie { 
+    background: #fdfdfd;
+    color: #333333;
+    grid-area: rodapie;  
+    padding: 1rem;
+    text-align: center;
+}

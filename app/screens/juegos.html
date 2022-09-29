@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>🤖 Juegos | Descargá Video Juegos y enterate de las últimas noticias</title>
+    <!-- <link href="./css/normalize.css" rel="stylesheet"> -->
+    <link href="../css/reset.css" rel="stylesheet">
+    <link href="../css/juegos/styleJuegos.css" rel="stylesheet">
+    <link href="../css/menu.css" rel="stylesheet">
+    <link href="../css/juegos/destacadosJuegos.css" rel="stylesheet">
+    <link href="../css/juegos/popularesJuegos.css" rel="stylesheet"> 
+    <link href="../css/responsivo.css" rel="stylesheet"> 
+
+</head>
+<body class="app">
+    <header class="encabezado">
+        <nav class="menu">
+            <ul class="menu__lista">
+                <li class="menu__item">
+                    <a class="menu__link activo" href="../index.html">
+                        <i class="fas fa-home"></i>
+                        Inicio
+                    </a> 
+                    <a class="menu__link" href="./aplicaciones.html">
+                        <i class="fas fa-mobile-alt"></i>
+                        Aplicaciones</a>
+                    <a class="menu__link" href="./juegos.html">
+                        <i class="fas fa-gamepad"></i>
+                        Juegos
+                    </a>
+                </li>
+            </ul>
+        </nav>        
+    </header>
+    <main class="contenido">
+        <section class="destaques">
+            <div class="destaques__principal box">
+                <h3 class="destaques__titulo">Genshin Impact</h3>
+            </div>
+            <div class="destaques__categorias">
+                <ul class="destaques__categorias___lista">
+                    <li class="destaques__categorias___item">
+                        <a class="destaques__categorias___link" href="#">
+                            <i class="destaques__categorias___icon fab fa-buromobelexperte"></i>
+                            Aplicaciones populares
+                        </a>
+                    </li>
+                    <li class="destaques__categorias___item">
+                        <a class="destaques__categorias___link" href="#">
+                            <i class="fas fa-list-ol"></i>
+                            Juegos populares
+                        </a>
+                    </li>
+                    <li class="destaques__categorias___item">
+                        <a class="destaques__categorias___link" href="#">
+                            <i class="far fa-star"></i>
+                            En Destaque
+                        </a>
+                    </li>
+                    <li class="destaques__categorias___item">
+                        <a class="destaques__categorias___link" href="#">
+                            <i class="far fa-bell"></i>
+                            Novedades
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="populares">
+            <div class="populares__items">
+                <div class="populares__info">
+                    <div class="populares__header">
+                        <div class="populares__principal">
+                            <h4 class="populares__titulo">
+                                <i class="populares__icon fas fa-list-ol"></i>
+                                Todos los Juegos
+                            </h4>
+                            <!--BOTON AGREGAR-->
+                            <button class="populares__boton btn_add ">
+                                <i class="populares__icon fas fa-plus-circle"></i>                           
+                            </button>
+                        </div>                        
+                        <!--BOTON BUSCAR-->
+                        <button class="populares__boton btn_search">
+                            <h4 class="populares__titulo">
+                                <textarea type="text" class="input-text-area" placeholder="Buscar en juegos" ></textarea>
+                                <i class="populares__icon fas fa-search"></i>
+                            <h4>
+                        </button> 
+                    </div>
+                    <div class="juego__add">
+                        <textarea type="text" class="input-text-area juego_nombre" placeholder="Ingresar nombre" ></textarea>
+                        <textarea type="text" class="input-text-area juego_fecha" placeholder="Ingresar fecha" ></textarea>
+                        <textarea type="text" class="input-text-area juego_descripcion" placeholder="Ingresar descripcion" ></textarea>
+                        <textarea type="text" class="input-text-area juego_imagen" placeholder="Ingresar url de imagen" ></textarea>
+                    </div>   
+                </div>
+                <div class="populares__contenido">
+                    <div class="populares__card">
+                        <img class="populares__card___imagen" src="../img/fortnite.jpg"></img>
+                        <div class="populares__card___base">
+                            <div class="populares__card___header">
+                                <div class="populares__principal btn__delete">
+                                        <!--BOTON ELIMINAR-->
+                                    <button class="populares__boton ">                             
+                                        <i class="populares__icon fas fa-trash-alt"></i>                          
+                                    </button>
+                                        <!--BOTON EDITAR-->
+                                    <button class="populares__boton btn__edit">
+                                        <i class="populares__icon fas fa-edit"></i>                     
+                                    </button>
+                                </div> 
+                                <h5 class="populares__card___titulo">Fornite</h5>
+                                <time class="populares__card___data" datetime="2017-07-25">25/07/2017</time>
+                            </div>
+                            <div class="populares__card___descripcion">
+                                Fortnite es un juego electrónico en línea creado en 2017, desarrollado por Epic Games y lanzado como diferentes paquetes de software con diferentes modos de juego que comparten el mismo motor de juego y gráfico.
+                            </div>
+                        </div>
+                    </div>
+                    <!--TARJETAS HTML-->
+                    <div class="populares__card">
+                        <img class="populares__card___imagen" src="../img/honkaiimpact3pic04-1620x800.jpg"></img>
+                        <div class="populares__card___base">
+                            <div class="populares__card___header">
+                                <h5 class="populares__card___titulo">Honkai Impact</h5>
+                                <time class="populares__card___data" datetime="201-10-14">23/03/2017</time>
+                            </div>
+                            <div class="populares__card___descripcion">
+                                Honkai Impact 3rd es un videojuego de acción de rol gratuito con mecánica gacha desarrollado por HoYoverse lanzado por primera vez en China el 14 de octubre del 2016, y lanzado globalmente el 28 de marzo de 2018.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="populares__card">
+                        <img class="populares__card___imagen" src="../img/cs-go.jpg"></img>
+                        <div class="populares__card___base">
+                            <div class="populares__card___header">
+                                <h5 class="populares__card___titulo">CS: GO</h5>
+                                <time class="populares__card___data" datetime="2012-08-21">21/08/2012</time>
+                            </div>
+                            <div class="populares__card___descripcion">
+                                Counter-Strike: Global Offensive es un juego en línea desarrollado por Valve Corporation y Hidden Path Entertainment, que es una secuela de Counter-Strike: Source. Es el cuarto título principal de la franquicia.                            </div>
+                        </div>
+                    </div>
+                    <div class="populares__card">
+                        <img class="populares__card___imagen" src="../img/lol.jpg"></img>
+                        <div class="populares__card___base">
+                            <div class="populares__card___header">
+                                <h5 class="populares__card___titulo">League of Legends</h5>
+                                <time class="populares__card___data" datetime="2009-10-27">27/10/2009</time>
+                            </div>
+                            <div class="populares__card___descripcion">
+                                League of Legends es un juego electrónico del género de arena de batalla en línea multijugador, desarrollado y publicado por Riot Games para Microsoft Windows y Mac OS X. Es un juego gratuito e inspirado en el modo Defense of the Ancients de Warcraft III: The Frozen Throne.                            </div>
+                        </div>
+                    </div>
+                    <div class="populares__card">
+                        <img class="populares__card___imagen" src="../img/gta-v.jpg"></img>
+                        <div class="populares__card___base">
+                            <div class="populares__card___header">
+                                <h5 class="populares__card___titulo">Grand Theft Auto V</h5>
+                                <time class="populares__card___data" datetime="2013-09-17">17/09/2013</time>
+                            </div>
+                            <div class="populares__card___descripcion">
+                                Grand Theft Auto V es un videojuego de acción y aventuras desarrollado por Rockstar North y publicado por Rockstar Games.                            </div>
+                        </div>
+                    </div>
+                    <!--TARJETA CON JSON-->
+                    <div class="populares__card" data-card>
+                        <!--js de juego controller-->
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodapie">Todos los derechos reservados &copy Cinthia Vota - 2022</footer>
+    
+    <script src="../../js/fontawesome.all.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="../../src/juego/juego.controller.ts"></script>
+</body>
+</html>

@@ -1,18 +1,20 @@
-import { Controller, Get } from '@nestjs/common';
-import { JuegoService } from '../juego/juego.service';
+import { Controller, Get, Post, Put, Delete } from '@nestjs/common';
+//import { JuegoService } from '../juego/juego.service';
 
+
+//Controller hace todo el ruteo
 @Controller('juego')
 export class JuegoController {
-    
-    //constructor(private juegoService : JuegoService) {}
 
-    @Get()
-    getEstado() {
-        return 'Controller Juego';
-    }
-    /* @Get('/juegos')
-    public listaJuegos(): any {
-        return this.juegoService.listaJuegos();
-    } */
+//constructor(private juegoService : JuegoService) {}
+
+@Get('/test')
+getEstadoJuego(): string {
+    return 'Controller corriendo desde el juego.controller';
+}
+/* @Get('/juegos')
+public listaJuegos(): any {
+    return this.juegoService.listaJuegos();
+} */
 
 }

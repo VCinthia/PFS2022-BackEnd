@@ -1,0 +1,4 @@
+auto, Ford, 515654, Fiesta,getAño() { return this.año; },getPrecio() { return this.precio; }}
+camioneta, Peugeot, 444454, Partner,getAño() { return this.año; },getPrecio() { return this.precio; }}
+auto, Chevrolet, 335654, Corsa,getAño() { return this.año; },getPrecio() { return this.precio; }}
+camioneta,Renault,515654,Duster,getAño() { return this.año; },getPrecio() { return this.precio; }}

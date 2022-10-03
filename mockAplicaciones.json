@@ -1,0 +1,35 @@
+{
+    "status" : "OK",
+    "aplicaciones" : [
+        {
+            "nombre": "Notion",
+            "fechaLanzamiento": "01/06/18",
+            "descripcion":"Notion es un software de gestión de proyectos y para tomar notas. Está diseñado para ayudar a los miembros de una empresa u organización a coordinar plazos, objetivos y tareas en aras de la eficiencia y la productividad.",
+            "img":"https://www.notion.so/front-static/meta/default.png"
+        },
+        {
+            "nombre": "Trello",
+            "fechaLanzamiento": "01/01/11",
+            "descripcion":"Trello es un software de administración de proyectos con interfaz web y con cliente para iOS y android para organizar proyectos.",
+            "img":"https://herramientasenlanube.com/wp-content/uploads/2019/08/gestion-proyectos-trello.jpg"
+        },
+        {
+            "nombre": "Slack",
+            "fechaLanzamiento": "01/08/13",
+            "descripcion":"Slack es una herramienta de comunicación en equipo y surgió con el nombre de Dharma creada por Stewart Butterfield, Eric Costello, Cal Henderson, y Serguei Mourachov. Slack surge como una herramienta interna utilizada por la compañía Tiny Speck en el desarrollo de Glitch, un juego en línea actualmente obsoleto.",
+            "img":"https://hwp.com.tr/wp-content/uploads/2018/03/12-1.jpg"
+        },
+        {
+            "nombre": "Telegram",
+            "fechaLanzamiento": "14/08/13",
+            "descripcion":"Telegram es una plataforma de mensajería y VOIP, desarrollada por los hermanos rusos Nikolái y Pável Dúrov. La aplicación está enfocada en la mensajería instantánea, el envío de varios archivos y la comunicación en masa.",
+            "img":"https://imag.malavida.com/qa-list/telegram-1369.jpg"
+        },
+        {
+            "nombre": "Figma",
+            "fechaLanzamiento": "27/09/16",
+            "descripcion":"Figma es un editor de gráficos vectorial y una herramienta de generación de prototipos, principalmente basada en la web, con características off-line adicionales habilitadas por aplicaciones de escritorio en macOS y Windows.",
+            "img":"https://blog.ida.cl/wp-content/uploads/sites/5/2020/07/ida-elegirfigma-blog-1024x735.png"
+        }
+    ]
+}

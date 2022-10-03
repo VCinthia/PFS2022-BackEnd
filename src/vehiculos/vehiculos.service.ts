@@ -52,7 +52,7 @@ export class VehiculosService {
         for(let i = 0; i < this.listaVehiculos.length; i++){
             let vehiculo = this.listaVehiculos[i];
             FS.appendFileSync('.\\recursos\\mockVehiculos.txt',
-            `${i==0?'':'\n'}${vehiculo.getTipo()},${vehiculo.getMarca()},${vehiculo.getPatente()},${vehiculo.getModelo()},${vehiculo.getAño},${vehiculo.getPrecio}}`
+            `${i==0?'':'\n'}${vehiculo.getTipo()},${vehiculo.getMarca()},${vehiculo.getPatente()},${vehiculo.getModelo()},${vehiculo.getAño()},${vehiculo.getPrecio()}}`
             );
             //no requiero de esas listas porque puedo traerlas por 'tipo'
             /* if (vehiculo.tipo == 'auto'){

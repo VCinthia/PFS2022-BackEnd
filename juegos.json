@@ -5,31 +5,36 @@
             "nombre": "Genshin Impact",
             "fechaLanzamiento": "28/09/20",
             "descripcion":"Genshin Impact es un videojuego de rol de acción de mundo abierto y gratuito, con una mecánica de monetización de gacha para conseguir elementos adicionales como personajes especiales y armas.",
-            "img":"https://i.ytimg.com/vi/jEp9yyhwZFE/maxresdefault.jpg"
+            "img":"https://i.ytimg.com/vi/jEp9yyhwZFE/maxresdefault.jpg",
+            "id": "0"
         },
         {
             "nombre": "Cuphead",
             "fechaLanzamiento": "29/09/17",
             "descripcion":"Cuphead es un videojuego perteneciente al género de corre y dispara, publicado por la empresa canadiense StudioMDHR. Fue lanzado al mercado el 29 de septiembre de 2017 para Microsoft Windows, Xbox One y Steam, en 2018 para macOS, en 2019 para Nintendo Switch y en 2020 para PlayStation 4.",
-            "img":"https://image.api.playstation.com/vulcan/img/cfn/11307fllh6D-IvbpCa18N0vRggVeRYWA06paTNCj3DENJMScAzW2f3ry4IwFcXBAt9kWXdZGpGoOGjxJ_e9MdordMVAosNhZ.png"
+            "img":"https://image.api.playstation.com/vulcan/img/cfn/11307fllh6D-IvbpCa18N0vRggVeRYWA06paTNCj3DENJMScAzW2f3ry4IwFcXBAt9kWXdZGpGoOGjxJ_e9MdordMVAosNhZ.png",
+            "id": "1"
         },
         {
             "nombre": "Honkai Impact 3rd",
             "fechaLanzamiento": "14/10/16",
             "descripcion":"Honkai Impact 3rd es un videojuego de acción de rol gratuito con mecánica gacha desarrollado por HoYoverse lanzado por primera vez en China el 14 de octubre del 2016, y lanzado globalmente el 28 de marzo de 2018.",
-            "img":"https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/styles/1200/public/media/image/2021/05/honkai-impact-3rd-2342195.jpg?itok=ntmWtVqx"
+            "img":"https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/styles/1200/public/media/image/2021/05/honkai-impact-3rd-2342195.jpg?itok=ntmWtVqx",
+            "id": "2"
         },
         {
             "nombre": "EA SPORTS FIFA 23",
             "fechaLanzamiento": "26/09/22",
             "descripcion":"FIFA 23 es un próximo videojuego de simulación de fútbol publicado por Electronic Arts . Será la trigésima y última entrega de la serie FIFA que será desarrollada por EA Sports, y su lanzamiento mundial está programado para el 30 de septiembre de 2022 para PC , Nintendo Switch , PlayStation 4 , PlayStation 5 , Xbox One , Xbox Series X/ S y Google Stadia.",
-            "img":"https://cloudfront-us-east-1.images.arcpublishing.com/infobae/2SRVZDMIEBDFRAS4WDAEPEZ7OI.jpeg"
+            "img":"https://cloudfront-us-east-1.images.arcpublishing.com/infobae/2SRVZDMIEBDFRAS4WDAEPEZ7OI.jpeg",
+            "id": "3"
         },
         {
             "nombre": "Slime Rancher 2",
             "fechaLanzamiento": "22/09/22",
             "descripcion":"Slime Rancher 2 es un videojuego de aventura de simulación de vida en primera persona desarrollado y publicado por el estudio independiente estadounidense Monomi Park. Slime Rancher 2 es la secuela directa de su predecesor, Slime Rancher.",
-            "img":"http://s.gamer-info.com/gl/s/l/i/m/slime-rancher-2_ba.jpg"
+            "img":"http://s.gamer-info.com/gl/s/l/i/m/slime-rancher-2_ba.jpg",
+            "id": "4"
         }
     ]
 }

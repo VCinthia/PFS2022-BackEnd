@@ -1,17 +1,20 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>🤖 Juegos | Descargá Video Juegos y enterate de las últimas noticias</title>
-    <!-- <link href="./css/normalize.css" rel="stylesheet"> -->
-    <link href="../css/reset.css" rel="stylesheet">
-    <link href="../css/juegos/styleJuegos.css" rel="stylesheet">
-    <link href="../css/menu.css" rel="stylesheet">
-    <link href="../css/juegos/destacadosJuegos.css" rel="stylesheet">
-    <link href="../css/juegos/popularesJuegos.css" rel="stylesheet"> 
-    <link href="../css/responsivo.css" rel="stylesheet"> 
+    <title>🤖 Opal Store | Descargá Video Juegos y enterate de las últimas noticias</title>
+    <link href="./assets/css/normalize.css" rel="stylesheet">
+    <link href="./assets/css/reset.css" rel="stylesheet">
+    <link href="./assets/css/style.css" rel="stylesheet">
+    <link href="./assets/css/menu.css" rel="stylesheet">
+    <link href="./assets/css/destacados.css" rel="stylesheet">
+    <link href="./assets/css/populares.css" rel="stylesheet"> 
+    <link href="./assets/css/responsivo.css" rel="stylesheet"> 
+    <link href="./assets/css/juegos/styleJuegos.css" rel="stylesheet"> 
+    <link href="./assets/css/juegos/destacadosJuegos.css" rel="stylesheet"> 
+    <link href="./assets/css/juegos/popularesJuegos.css" rel="stylesheet"> 
 
 </head>
 <body class="app">
@@ -22,13 +25,22 @@
                     <a class="menu__link activo" href="../index.html">
                         <i class="fas fa-home"></i>
                         Inicio
-                    </a> 
-                    <a class="menu__link" href="./aplicaciones.html">
+                    </a>
+                    <!-- <a class="menu__link" href="#">
                         <i class="fas fa-mobile-alt"></i>
-                        Aplicaciones</a>
-                    <a class="menu__link" href="./juegos.html">
+                        Aplicaciones
+                    </a> -->
+                    <a class="menu__link" href="#">
                         <i class="fas fa-gamepad"></i>
                         Juegos
+                    </a>
+                    <a class="menu__link" href="./cargarProducto.html">
+                        <i class="fas fa-plus-circle"></i>
+                        Cargar Producto (pruebas)
+                    </a>
+                    <a class="menu__link" id="btn-login" href="./login.html">
+                        <i class="fas fa-sign-in-alt"></i>
+                        Login
                     </a>
                 </li>
             </ul>
@@ -78,40 +90,32 @@
                                 Todos los Juegos
                             </h4>
                             <!--BOTON AGREGAR-->
-                            <button class="populares__boton btn_add ">
+                            <!-- <button class="populares__boton btn_add ">
                                 <i class="populares__icon fas fa-plus-circle"></i>                           
-                            </button>
+                            </button> -->
                         </div>                        
                         <!--BOTON BUSCAR-->
-                        <button class="populares__boton btn_search">
+                        <!-- <button class="populares__boton btn_search">
                             <h4 class="populares__titulo">
                                 <textarea type="text" class="input-text-area" placeholder="Buscar en juegos" ></textarea>
                                 <i class="populares__icon fas fa-search"></i>
                             <h4>
-                        </button> 
+                        </button>  -->
                     </div>
-                    <div class="juego__add">
+                    <!-- <div class="juego__add">
                         <textarea type="text" class="input-text-area juego_nombre" placeholder="Ingresar nombre" ></textarea>
                         <textarea type="text" class="input-text-area juego_fecha" placeholder="Ingresar fecha" ></textarea>
                         <textarea type="text" class="input-text-area juego_descripcion" placeholder="Ingresar descripcion" ></textarea>
                         <textarea type="text" class="input-text-area juego_imagen" placeholder="Ingresar url de imagen" ></textarea>
-                    </div>   
+                    </div>  -->  
                 </div>
-                <div class="populares__contenido">
-                    <div class="populares__card">
-                        <img class="populares__card___imagen" src="../img/fortnite.jpg"></img>
+                
+                <div class="populares__contenido" >
+                    <!-- <div class="populares__card">
+                        <img class="populares__card___imagen" src="./assets/img/fortnite.jpg"></img>
                         <div class="populares__card___base">
                             <div class="populares__card___header">
-                                <div class="populares__principal btn__delete">
-                                        <!--BOTON ELIMINAR-->
-                                    <button class="populares__boton ">                             
-                                        <i class="populares__icon fas fa-trash-alt"></i>                          
-                                    </button>
-                                        <!--BOTON EDITAR-->
-                                    <button class="populares__boton btn__edit">
-                                        <i class="populares__icon fas fa-edit"></i>                     
-                                    </button>
-                                </div> 
+                                
                                 <h5 class="populares__card___titulo">Fornite</h5>
                                 <time class="populares__card___data" datetime="2017-07-25">25/07/2017</time>
                             </div>
@@ -119,10 +123,21 @@
                                 Fortnite es un juego electrónico en línea creado en 2017, desarrollado por Epic Games y lanzado como diferentes paquetes de software con diferentes modos de juego que comparten el mismo motor de juego y gráfico.
                             </div>
                         </div>
-                    </div>
+
+                        <div class="populares__principal btn__delete"> -->
+                            <!--BOTON ELIMINAR-->
+                        <!-- <button class="populares__boton ">                             
+                            <i class="populares__icon fas fa-trash-alt"></i>                          
+                        </button> -->
+                            <!--BOTON EDITAR-->
+                        <!-- <button class="populares__boton btn__edit">
+                            <i class="populares__icon fas fa-edit"></i>                     
+                        </button>
+                        </div>  -->
+                    <!-- </div>  -->
                     <!--TARJETAS HTML-->
-                    <div class="populares__card">
-                        <img class="populares__card___imagen" src="../img/honkaiimpact3pic04-1620x800.jpg"></img>
+                    <!-- <div class="populares__card">
+                        <img class="populares__card___imagen" src="./assets/img/honkaiimpact3pic04-1620x800.jpg"></img>
                         <div class="populares__card___base">
                             <div class="populares__card___header">
                                 <h5 class="populares__card___titulo">Honkai Impact</h5>
@@ -132,9 +147,9 @@
                                 Honkai Impact 3rd es un videojuego de acción de rol gratuito con mecánica gacha desarrollado por HoYoverse lanzado por primera vez en China el 14 de octubre del 2016, y lanzado globalmente el 28 de marzo de 2018.
                             </div>
                         </div>
-                    </div>
-                    <div class="populares__card">
-                        <img class="populares__card___imagen" src="../img/cs-go.jpg"></img>
+                    </div> -->
+                    <!-- <div class="populares__card">
+                        <img class="populares__card___imagen" src="./assets/img/cs-go.jpg"></img>
                         <div class="populares__card___base">
                             <div class="populares__card___header">
                                 <h5 class="populares__card___titulo">CS: GO</h5>
@@ -143,9 +158,9 @@
                             <div class="populares__card___descripcion">
                                 Counter-Strike: Global Offensive es un juego en línea desarrollado por Valve Corporation y Hidden Path Entertainment, que es una secuela de Counter-Strike: Source. Es el cuarto título principal de la franquicia.                            </div>
                         </div>
-                    </div>
-                    <div class="populares__card">
-                        <img class="populares__card___imagen" src="../img/lol.jpg"></img>
+                    </div> -->
+                    <!-- <div class="populares__card">
+                        <img class="populares__card___imagen" src="./assets/img/lol.jpg"></img>
                         <div class="populares__card___base">
                             <div class="populares__card___header">
                                 <h5 class="populares__card___titulo">League of Legends</h5>
@@ -154,9 +169,9 @@
                             <div class="populares__card___descripcion">
                                 League of Legends es un juego electrónico del género de arena de batalla en línea multijugador, desarrollado y publicado por Riot Games para Microsoft Windows y Mac OS X. Es un juego gratuito e inspirado en el modo Defense of the Ancients de Warcraft III: The Frozen Throne.                            </div>
                         </div>
-                    </div>
-                    <div class="populares__card">
-                        <img class="populares__card___imagen" src="../img/gta-v.jpg"></img>
+                    </div> -->
+                    <!-- <div class="populares__card">
+                        <img class="populares__card___imagen" src="./assets/img/gta-v.jpg"></img>
                         <div class="populares__card___base">
                             <div class="populares__card___header">
                                 <h5 class="populares__card___titulo">Grand Theft Auto V</h5>
@@ -165,20 +180,19 @@
                             <div class="populares__card___descripcion">
                                 Grand Theft Auto V es un videojuego de acción y aventuras desarrollado por Rockstar North y publicado por Rockstar Games.                            </div>
                         </div>
-                    </div>
+                    </div> -->
                     <!--TARJETA CON JSON-->
-                    <div class="populares__card" data-card>
+                    <div class="populares__crud" data-card >
                         <!--js de juego controller-->
                     </div>
                 </div>
+                
             </div>
         </section>
     </main>
-
     <footer class="rodapie">Todos los derechos reservados &copy Cinthia Vota - 2022</footer>
-    
-    <script src="../../js/fontawesome.all.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="../../src/juego/juego.controller.ts"></script>
+    <script src="./assets/js/fontawesome.all.min.js"></script>
+    <script type="module" src="./controllers/client.controller.js"></script>
+
 </body>
 </html>

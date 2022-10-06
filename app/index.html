@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>🤖 Video Games Store | Descargá Video Juegos y enterate de las últimas noticias</title>
-    <link href="./css/normalize.css" rel="stylesheet">
-    <link href="./css/reset.css" rel="stylesheet">
-    <link href="./css/style.css" rel="stylesheet">
-    <link href="./css/menu.css" rel="stylesheet">
-    <link href="./css/destacados.css" rel="stylesheet">
-    <link href="./css/populares.css" rel="stylesheet"> 
-    <link href="./css/responsivo.css" rel="stylesheet"> 
+    <title>🤖 Opal Store | Descargá Video Juegos y enterate de las últimas noticias</title>
+    <link href="./assets/css/normalize.css" rel="stylesheet">
+    <link href="./assets/css/reset.css" rel="stylesheet">
+    <link href="./assets/css/style.css" rel="stylesheet">
+    <link href="./assets/css/menu.css" rel="stylesheet">
+    <link href="./assets/css/destacados.css" rel="stylesheet">
+    <link href="./assets/css/populares.css" rel="stylesheet"> 
+    <link href="./assets/css/responsivo.css" rel="stylesheet"> 
+
 
 </head>
 <body class="app">
@@ -19,16 +20,25 @@
         <nav class="menu">
             <ul class="menu__lista">
                 <li class="menu__item">
-                    <a class="menu__link activo" href="./index.html">
+                    <a class="menu__link activo" href="#">
                         <i class="fas fa-home"></i>
                         Inicio
-                    </a> 
-                    <a class="menu__link" href="./screens/aplicaciones.html">
+                    </a>
+                    <!-- <a class="menu__link" href="#">
                         <i class="fas fa-mobile-alt"></i>
-                        Aplicaciones</a>
+                        Aplicaciones
+                    </a> -->
                     <a class="menu__link" href="./screens/juegos.html">
                         <i class="fas fa-gamepad"></i>
                         Juegos
+                    </a>
+                    <a class="menu__link" href="./screens/cargarProducto.html">
+                        <i class="fas fa-plus-circle"></i>
+                        Cargar Producto (pruebas)
+                    </a>
+                    <a class="menu__link" id="btn-login" href="./screens/login.html">
+                        <i class="fas fa-sign-in-alt"></i>
+                        Login
                     </a>
                 </li>
             </ul>
@@ -96,7 +106,7 @@
                 </div>
                 <div class="populares__contenido">
                     <div class="populares__card">
-                        <img class="populares__card___imagen" src="./img/slack.png"></img>
+                        <img class="populares__card___imagen" src="./assets/img/slack.png"></img>
                         <div class="populares__card___base">
                             <div class="populares__card___header">
                                 <h5 class="populares__card___titulo">Slack</h5>
@@ -107,7 +117,7 @@
                         </div>
                     </div>
                     <div class="populares__card">
-                        <img class="populares__card___imagen" src="./img/whatsapp.png"></img>
+                        <img class="populares__card___imagen" src="./assets/img/whatsapp.png"></img>
                         <div class="populares__card___base">
                             <div class="populares__card___header">
                                 <h5 class="populares__card___titulo">Whatsapp</h5>
@@ -118,7 +128,7 @@
                         </div>
                     </div>
                     <div class="populares__card">
-                        <img class="populares__card___imagen" src="./img/telegram.jpeg"></img>
+                        <img class="populares__card___imagen" src="./assets/img/telegram.jpeg"></img>
                         <div class="populares__card___base">
                             <div class="populares__card___header">
                                 <h5 class="populares__card___titulo">Telegram</h5>
@@ -129,7 +139,7 @@
                         </div>
                     </div>
                     <div class="populares__card">
-                        <img class="populares__card___imagen" src="./img/trello.jpg"></img>
+                        <img class="populares__card___imagen" src="./assets/img/trello.jpg"></img>
                         <div class="populares__card___base">
                             <div class="populares__card___header">
                                 <h5 class="populares__card___titulo">Trello</h5>
@@ -140,15 +150,14 @@
                         </div>
                     </div>
                     <div class="populares__card">
-                        <img class="populares__card___imagen" src="https://www.notion.so/front-static/meta/default.png"></img>
+                        <img class="populares__card___imagen" src="./assets/img/skype.png"></img>
                         <div class="populares__card___base">
                             <div class="populares__card___header">
-                                <h5 class="populares__card___titulo">Notion</h5>
+                                <h5 class="populares__card___titulo">Skype</h5>
                                 <time class="populares__card___data" datetime="2003-08-01">08/2003</time>
                             </div>
                             <div class="populares__card___descripcion">
-                                Notion es un software de gestión de proyectos y para tomar notas. Está diseñado para ayudar a los miembros de una empresa u organización a coordinar plazos, objetivos y tareas en aras de la eficiencia y la productividad.
-                            </div>
+                                Skype es un software que permite la comunicación a través de Internet a través de conexiones de voz y video, creado por Janus Friis y Niklas Zennstrom. Skype se lanzó en 2003. En 2005 se vendió a eBay y es propiedad de Microsoft desde mayo de 2011.                            </div>
                         </div>
                     </div>
                 </div>
@@ -168,7 +177,7 @@
                 </div>
                 <div class="populares__contenido">
                     <div class="populares__card">
-                        <img class="populares__card___imagen" src="./img/fortnite.jpg"></img>
+                        <img class="populares__card___imagen" src="./assets/img/fortnite.jpg"></img>
                         <div class="populares__card___base">
                             <div class="populares__card___header">
                                 <h5 class="populares__card___titulo">Fornite</h5>
@@ -179,19 +188,18 @@
                         </div>
                     </div>
                     <div class="populares__card">
-                        <img class="populares__card___imagen" src="./img/honkaiimpact3pic04-1620x800.jpg"></img>
+                        <img class="populares__card___imagen" src="./assets/img/pubg.jpg"></img>
                         <div class="populares__card___base">
                             <div class="populares__card___header">
-                                <h5 class="populares__card___titulo">Honkai Impact</h5>
-                                <time class="populares__card___data" datetime="201-10-14">23/03/2017</time>
+                                <h5 class="populares__card___titulo">PUBG</h5>
+                                <time class="populares__card___data" datetime="2017-03-23">23/03/2017</time>
                             </div>
                             <div class="populares__card___descripcion">
-                                Honkai Impact 3rd es un videojuego de acción de rol gratuito con mecánica gacha desarrollado por HoYoverse lanzado por primera vez en China el 14 de octubre del 2016, ​y lanzado globalmente el 28 de marzo de 2018.
-                            </div>
+                                PlayerUnknown's Battlegrounds, o solo Battlegrounds, es un videojuego multijugador desarrollado por PUBG Corp., una subsidiaria del productor coreano Bluehole, que utiliza el motor de juego Unreal Engine 4.                            </div>
                         </div>
                     </div>
                     <div class="populares__card">
-                        <img class="populares__card___imagen" src="./img/cs-go.jpg"></img>
+                        <img class="populares__card___imagen" src="./assets/img/cs-go.jpg"></img>
                         <div class="populares__card___base">
                             <div class="populares__card___header">
                                 <h5 class="populares__card___titulo">CS: GO</h5>
@@ -202,7 +210,7 @@
                         </div>
                     </div>
                     <div class="populares__card">
-                        <img class="populares__card___imagen" src="./img/lol.jpg"></img>
+                        <img class="populares__card___imagen" src="./assets/img/lol.jpg"></img>
                         <div class="populares__card___base">
                             <div class="populares__card___header">
                                 <h5 class="populares__card___titulo">League of Legends</h5>
@@ -213,7 +221,7 @@
                         </div>
                     </div>
                     <div class="populares__card">
-                        <img class="populares__card___imagen" src="./img/gta-v.jpg"></img>
+                        <img class="populares__card___imagen" src="./assets/img/gta-v.jpg"></img>
                         <div class="populares__card___base">
                             <div class="populares__card___header">
                                 <h5 class="populares__card___titulo">Grand Theft Auto V</h5>
@@ -240,7 +248,7 @@
                 </div>
                 <div class="populares__contenido">
                     <div class="populares__card">
-                        <img class="populares__card___imagen" src="./img/fortnite.jpg"></img>
+                        <img class="populares__card___imagen" src="./assets/img/fortnite.jpg"></img>
                         <div class="populares__card___base">
                             <div class="populares__card___header">
                                 <h5 class="populares__card___titulo">Fornite</h5>
@@ -251,7 +259,7 @@
                         </div>
                     </div>
                     <div class="populares__card">
-                        <img class="populares__card___imagen" src="./img/pubg.jpg"></img>
+                        <img class="populares__card___imagen" src="./assets/img/pubg.jpg"></img>
                         <div class="populares__card___base">
                             <div class="populares__card___header">
                                 <h5 class="populares__card___titulo">PUBG</h5>
@@ -262,7 +270,7 @@
                         </div>
                     </div>
                     <div class="populares__card">
-                        <img class="populares__card___imagen" src="./img/slack.png"></img>
+                        <img class="populares__card___imagen" src="./assets/img/slack.png"></img>
                         <div class="populares__card___base">
                             <div class="populares__card___header">
                                 <h5 class="populares__card___titulo">Slack</h5>
@@ -273,7 +281,7 @@
                         </div>
                     </div>
                     <div class="populares__card">
-                        <img class="populares__card___imagen" src="./img/whatsapp.png"></img>
+                        <img class="populares__card___imagen" src="./assets/img/whatsapp.png"></img>
                         <div class="populares__card___base">
                             <div class="populares__card___header">
                                 <h5 class="populares__card___titulo">Whatsapp</h5>
@@ -284,7 +292,7 @@
                         </div>
                     </div>
                     <div class="populares__card">
-                        <img class="populares__card___imagen" src="./img/cs-go.jpg"></img>
+                        <img class="populares__card___imagen" src="./assets/img/cs-go.jpg"></img>
                         <div class="populares__card___base">
                             <div class="populares__card___header">
                                 <h5 class="populares__card___titulo">CS: GO</h5>
@@ -311,7 +319,7 @@
                 </div>
                 <div class="populares__contenido">
                     <div class="populares__card">
-                        <img class="populares__card___imagen" src="./img/brawl-stars.jpg"></img>
+                        <img class="populares__card___imagen" src="./assets/img/brawl-stars.jpg"></img>
                         <div class="populares__card___base">
                             <div class="populares__card___header">
                                 <h5 class="populares__card___titulo">Brawl Stars</h5>
@@ -322,7 +330,7 @@
                         </div>
                     </div>
                     <div class="populares__card">
-                        <img class="populares__card___imagen" src="./img/organizze.jpeg"></img>
+                        <img class="populares__card___imagen" src="./assets/img/organizze.jpeg"></img>
                         <div class="populares__card___base">
                             <div class="populares__card___header">
                                 <h5 class="populares__card___titulo">Organizze</h5>
@@ -333,7 +341,7 @@
                         </div>
                     </div>
                     <div class="populares__card">
-                        <img class="populares__card___imagen" src="./img/onefotball.jpeg"></img>
+                        <img class="populares__card___imagen" src="./assets/img/onefotball.jpeg"></img>
                         <div class="populares__card___base">
                             <div class="populares__card___header">
                                 <h5 class="populares__card___titulo">Onefootball</h5>
@@ -344,7 +352,7 @@
                         </div>
                     </div>
                     <div class="populares__card">
-                        <img class="populares__card___imagen" src="./img/free-fire.jpg"></img>
+                        <img class="populares__card___imagen" src="./assets/img/free-fire.jpg"></img>
                         <div class="populares__card___base">
                             <div class="populares__card___header">
                                 <h5 class="populares__card___titulo">Free Fire</h5>
@@ -355,7 +363,7 @@
                         </div>
                     </div>
                     <div class="populares__card">
-                        <img class="populares__card___imagen" src="./img/mario-kart.jpg"></img>
+                        <img class="populares__card___imagen" src="./assets/img/mario-kart.jpg"></img>
                         <div class="populares__card___base">
                             <div class="populares__card___header">
                                 <h5 class="populares__card___titulo">Super Mario Racing</h5>
@@ -370,8 +378,8 @@
         </section>
     </main>
     <footer class="rodapie">Todos los derechos reservados &copy Cinthia Vota - 2022</footer>
-    <script src="./js/fontawesome.all.min.js"></script>
-    <!-- <script src="/src/juego/juego.controller.ts"></script> -->
-    <script src="/src/vehiculos/vehiculos.controller.ts"></script>
+    <script src="./assets/js/fontawesome.all.min.js"></script>
+    <script src="../src/juego/juego.service.ts"></script>
+    <script src="../src/juego/juego.controller.ts"></script>
 </body>
 </html>

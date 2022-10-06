@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>🤖 Opal Store | Descargá Video Juegos y enterate de las últimas noticias</title>
+    <link href="./assets/css/normalize.css" rel="stylesheet">
+    <link href="./assets/css/reset.css" rel="stylesheet">
+    <link href="./assets/css/style.css" rel="stylesheet">
+    <link href="./assets/css/menu.css" rel="stylesheet">
+    <link href="./assets/css/destacados.css" rel="stylesheet">
+    <link href="./assets/css/populares.css" rel="stylesheet"> 
+    <link href="./assets/css/responsivo.css" rel="stylesheet"> 
+    <link href="./assets/css/login.css" rel="stylesheet"> 
+    
+</head>
+<body class="app">
+    <header class="encabezado">
+        <nav class="menu">
+            <ul class="menu__lista">
+                <li class="menu__item">
+                    <a class="menu__link activo" href="../index.html">
+                        <i class="fas fa-home"></i>
+                        Inicio
+                    </a>
+                    <!-- <a class="menu__link" href="#">
+                        <i class="fas fa-mobile-alt"></i>
+                        Aplicaciones
+                    </a> -->
+                    <a class="menu__link" href="./juegos.html">
+                        <i class="fas fa-gamepad"></i>
+                        Juegos
+                    </a>
+                    <a class="menu__link" id="btn-login" href="./login.html">
+                        <i class="fas fa-sign-in-alt"></i>
+                        Logout
+                    </a>
+                </li>
+            </ul>
+        </nav>        
+    </header>
+
+    <section class="form__producto">
+        <div class="wrapper">
+            <form action="#" class="producto" data-form-edit>
+              <p class="title">Editar Producto</p>
+              <div  class="input-container">
+                <input data-tipo-producto class="input" type="text" id="tipo-producto" nombre="tipo-producto" placeholder="Tipo de Producto" required />
+                <!-- <span class="input-menssage-error">Este campo es requerido</span> -->
+              </div>
+              <div class="input-container">
+                <input data-nombre-producto class="input" type="text" id="nombre-producto" nombre="nombre-producto" placeholder="Nombre Producto" required />
+                <!-- <span class="input-menssage-error">Este campo es requerido</span> -->
+              </div>
+              <div  class="input-container">
+                <input data-fecha-producto class="input" type="date" id="fecha-producto" nombre="fecha-producto" placeholder="Fecha de Lanzamiento" required />
+                <!-- <span class="input-menssage-error">Este campo es requerido</span> -->
+              </div>
+              <div  class="input-container">
+                <input data-descripcion-producto class="input" type="text" id="descripcion-producto" nombre="descripcion-producto" placeholder="Descripción" required />
+                <!-- <span class="input-menssage-error">Este campo es requerido</span> -->
+              </div>
+              <div  class="input-container">
+                <input data-img-producto class="input" type="url" id="img-producto" nombre="img-producto" placeholder="Imagen Producto" required />
+                <!-- <span class="input-menssage-error">Este campo es requerido</span> -->
+              </div>
+              
+              <button type="submit">                
+                <span class="state">Editar</span>
+              </button>
+            </form>
+          </div>
+    </section>
+
+    <footer class="rodapie">Todos los derechos reservados &copy Cinthia Vota - 2022</footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./assets/js/fontawesome.all.min.js"></script>
+    <script type="module" src="./controllers/actualizar.controller.js"></script>
+</body>
+</html>

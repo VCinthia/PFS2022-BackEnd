@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>🤖 Opal Store | Descargá Video Juegos y enterate de las últimas noticias</title>
+    <link href="./assets/css/normalize.css" rel="stylesheet">
+    <link href="./assets/css/reset.css" rel="stylesheet">
+    <link href="./assets/css/style.css" rel="stylesheet">
+    <link href="./assets/css/menu.css" rel="stylesheet">
+    <link href="./assets/css/destacados.css" rel="stylesheet">
+    <link href="./assets/css/populares.css" rel="stylesheet"> 
+    <link href="./assets/css/responsivo.css" rel="stylesheet"> 
+    <link href="./assets/css/login.css" rel="stylesheet"> 
+    
+</head>
+<body class="app">
+    <header class="encabezado">
+        <nav class="menu">
+            <ul class="menu__lista">
+                <li class="menu__item">
+                    <a class="menu__link activo" href="../index.html">
+                        <i class="fas fa-home"></i>
+                        Inicio
+                    </a>
+                    <!-- <a class="menu__link" href="#">
+                        <i class="fas fa-mobile-alt"></i>
+                        Aplicaciones
+                    </a> -->
+                    <a class="menu__link" href="./">
+                        <i class="fas fa-gamepad"></i>
+                        Juegos
+                    </a>
+                </li>
+            </ul>
+        </nav>        
+    </header>
+
+    <section class="form__login">
+        <div class="wrapper">
+            <form class="login" data-login id=${0} type="submit">
+              <p class="title">Ingresar</p>
+              <div class="input-container">
+                <input data-nombre-user class="input" type="text" id='nombre-user' nombre="nombre-user" placeholder="Nombre Usuario" required autofocus/>
+                <!-- <span class="input-menssage-error">Este campo es requerido</span> -->
+              </div>
+              <div class="input-container">
+                <input data-contraseña-user class="input" type="password" id='contraseña-user' nombre="contraseña-user" placeholder="Contraseña" required/>
+                <!-- <span class="input-menssage-error">Este campo es requerido</span> -->
+              </div>
+              <button >
+                <!-- <i class="spinner"></i> -->
+                <span class="state">Ingresar</span>
+              </button>
+            </form>
+          </div>
+    </section>
+
+    <footer class="rodapie">Todos los derechos reservados &copy Cinthia Vota - 2022</footer>
+    <script src="./assets/js/fontawesome.all.min.js"></script>
+    <script src="./controllers/user.controller.js" type="module"></script>
+</body>
+</html>

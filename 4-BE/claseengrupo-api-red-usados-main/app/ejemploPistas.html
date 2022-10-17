@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="local.css">
+    <title>Ejemplo Pistas</title>
+</head>
+<body>
+    <h1>Pistas</h1>
+    <p id="pSubtitulo"></p>
+    <table> 
+      <thead>
+        <td>Identificador</td>
+        <td>Título</td>
+        <td>Duración</td>
+        <td>Intérprete</td>
+        <td></td>
+      </thead>
+      <thead>
+        <td><input class="vacio" type="text" name="" value="" id="identificador"></td>
+        <td><input class="vacio" type="text" name="" value="" id="titulo"></td>
+        <td><input class="vacio" type="text" name="" value="" id="duracion"></td>
+        <td><input class="vacio" type="text" name="" value="" id="interprete"></td>
+        <td></td>
+      </thead>
+      <thead>
+        <td colspan="5">
+          <button type="button" id="btnAgregar">Agregar</button>
+          <button type="button" id="btnBuscar">Buscar</button>
+          <button type="button" id="btnDuracion">Duración</button>
+        </td> 
+      </thead>
+      <tbody id="tblPistas"></tbody>
+    </table>
+    <div id="total"></div>
+    <script src="ejemploPistas.js"></script>
+  </body>  
+</html>

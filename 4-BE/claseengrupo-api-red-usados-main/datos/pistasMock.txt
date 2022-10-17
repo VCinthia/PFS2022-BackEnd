@@ -1,0 +1,11 @@
+1,Bohemian Rhapsody,481,Queen
+2,Imagine,290,John Lennon
+3,Satisfaction,308,The Rolling Stones
+4,HighWay to Hell,241,AC/DC
+5,November Rain,255,Guns & Roses
+6,Jaded,255,Aerosmith
+7,Light my fire,348,The Doors
+8,Comfortably Numb,280,Pink Floyd
+9,Stairway to Heaven,250,Led Zeppelin
+10,Smoke on the water,220,Deep Purple
+11,One,300,U2

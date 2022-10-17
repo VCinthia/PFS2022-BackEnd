@@ -1,0 +1,180 @@
+[
+  'UsadosTresArroyos',
+  'San Martin 345-Tres Arroyos-Buenos Aires',
+  'AC221RW-AA192QB-AB729RT'
+]
+Concesionaria {
+  vehiculos: [],
+  sede: 'UsadosTresArroyos',
+  domicilio: 'San Martin 345-Tres Arroyos-Buenos Aires'
+}
+[ 'AC221RW', 'AA192QB', 'AB729RT' ]
+AC221RW
+Auto {
+  dominio: 'AC221RW',
+  precio: 40000000,
+  marca: 'Ford',
+  modelo: 'Fiesta',
+  'año': 2019,
+  tipo: 'Auto'
+}
+AA192QB
+Camioneta {
+  dominio: 'AA192QB',
+  precio: 1800000,
+  marca: 'Toyota',
+  modelo: 'Hilux',
+  'año': 2014,
+  tipo: 'Camioneta',
+  capacidad: 3900
+}
+AB729RT
+Camioneta {
+  dominio: 'AB729RT',
+  precio: 8000000,
+  marca: 'Toyota',
+  modelo: 'SW4',
+  'año': 2018,
+  tipo: 'Camioneta',
+  capacidad: 2500
+}
+Concesionaria {
+  vehiculos: [
+    Auto {
+      dominio: 'AC221RW',
+      precio: 40000000,
+      marca: 'Ford',
+      modelo: 'Fiesta',
+      'año': 2019,
+      tipo: 'Auto'
+    },
+    Camioneta {
+      dominio: 'AA192QB',
+      precio: 1800000,
+      marca: 'Toyota',
+      modelo: 'Hilux',
+      'año': 2014,
+      tipo: 'Camioneta',
+      capacidad: 3900
+    },
+    Camioneta {
+      dominio: 'AB729RT',
+      precio: 8000000,
+      marca: 'Toyota',
+      modelo: 'SW4',
+      'año': 2018,
+      tipo: 'Camioneta',
+      capacidad: 2500
+    }
+  ],
+  sede: 'UsadosTresArroyos',
+  domicilio: 'San Martin 345-Tres Arroyos-Buenos Aires'
+}
+[
+  'UsadosBenitoJuarez',
+  'Alberdi 147-Benito Juarez-Buenos Aires',
+  'AF321QS-AB021GW'
+]
+Concesionaria {
+  vehiculos: [],
+  sede: 'UsadosBenitoJuarez',
+  domicilio: 'Alberdi 147-Benito Juarez-Buenos Aires'
+}
+[ 'AF321QS', 'AB021GW' ]
+AF321QS
+Camioneta {
+  dominio: 'AF321QS',
+  precio: 12000000,
+  marca: 'Ford',
+  modelo: 'Eco-Sport',
+  'año': 2022,
+  tipo: 'Camioneta',
+  capacidad: 4200
+}
+AB021GW
+Camioneta {
+  dominio: 'AB021GW',
+  precio: 4000000,
+  marca: 'Ford',
+  modelo: 'Ranger',
+  'año': 2016,
+  tipo: 'Camioneta',
+  capacidad: 5000
+}
+Concesionaria {
+  vehiculos: [
+    Camioneta {
+      dominio: 'AF321QS',
+      precio: 12000000,
+      marca: 'Ford',
+      modelo: 'Eco-Sport',
+      'año': 2022,
+      tipo: 'Camioneta',
+      capacidad: 4200
+    },
+    Camioneta {
+      dominio: 'AB021GW',
+      precio: 4000000,
+      marca: 'Ford',
+      modelo: 'Ranger',
+      'año': 2016,
+      tipo: 'Camioneta',
+      capacidad: 5000
+    }
+  ],
+  sede: 'UsadosBenitoJuarez',
+  domicilio: 'Alberdi 147-Benito Juarez-Buenos Aires'
+}
+[
+  'UsadosTandil',
+  'Garibaldi 538-Tandil-Buenos Aires',
+  'AB127JV-AD324WQ'
+]
+Concesionaria {
+  vehiculos: [],
+  sede: 'UsadosTandil',
+  domicilio: 'Garibaldi 538-Tandil-Buenos Aires'
+}
+[ 'AB127JV', 'AD324WQ' ]
+AB127JV
+Auto {
+  dominio: 'AB127JV',
+  precio: 2500000,
+  marca: 'Toyota',
+  modelo: 'Etios',
+  'año': 2017,
+  tipo: 'Auto'
+}
+AD324WQ
+Camioneta {
+  dominio: 'AD324WQ',
+  precio: 10000000,
+  marca: 'Volkswagen',
+  modelo: 'Amarok',
+  'año': 2021,
+  tipo: 'Camioneta',
+  capacidad: 3200
+}
+Concesionaria {
+  vehiculos: [
+    Auto {
+      dominio: 'AB127JV',
+      precio: 2500000,
+      marca: 'Toyota',
+      modelo: 'Etios',
+      'año': 2017,
+      tipo: 'Auto'
+    },
+    Camioneta {
+      dominio: 'AD324WQ',
+      precio: 10000000,
+      marca: 'Volkswagen',
+      modelo: 'Amarok',
+      'año': 2021,
+      tipo: 'Camioneta',
+      capacidad: 3200
+    }
+  ],
+  sede: 'UsadosTandil',
+  domicilio: 'Garibaldi 538-Tandil-Buenos Aires'
+}

@@ -1,0 +1,16 @@
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: green;
+}
+td {
+    color: blueviolet;
+}
+input.vacio {
+    border: 1px solid black;
+}
+input.error {
+    border: 1px dotted red ;
+}
+input.ok {
+    border: 1px solid green;
+}

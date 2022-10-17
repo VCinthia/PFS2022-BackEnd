@@ -1,0 +1,3 @@
+UsadosTresArroyos,San Martin 345-Tres Arroyos-Buenos Aires,AC221RW-AA192QB-AB729RT
+UsadosBenitoJuarez,Alberdi 147-Benito Juarez-Buenos Aires,AF321QS-AB021GW
+UsadosTandil,Garibaldi 538-Tandil-Buenos Aires,AB127JV-AD324WQ

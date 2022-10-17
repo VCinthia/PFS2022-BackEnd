@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="usados.css">
+    <title>Vehiculos Usados</title>
+</head>
+<body>
+    <h1>Vehiculos Usados</h1>
+    <p id="pSubtitulo"></p>
+    <table> 
+      <thead>
+        <td>Dominio</td>
+        <td>Marca</td>
+        <td>Modelo</td>
+        <td>Año</td>
+        <td>Precio</td>
+        <td>Capacidad</td>
+        <td>Sede</td>
+      </thead>
+      <thead>
+        <td><input class="vacio" type="text" name="" value="" id="dominio"></td>
+        <td><input class="vacio" type="text" name="" value="" id="marca"></td>
+        <td><input class="vacio" type="text" name="" value="" id="modelo"></td>
+        <td><input class="vacio" type="text" name="" value="" id="año"></td>
+        <td><input class="vacio" type="text" name="" value="" id="precio"></td>
+        <td><input class="vacio" type="text" name="" value="" id="capacidad"></td>
+        <td></td>
+      </thead>
+      <thead>
+        <td colspan="7">
+          <button type="button" id="btnAgregar">Agregar</button>
+          <button type="button" id="btnBuscar">Buscar</button>
+          <button type="button" id="btnBuscaA">Buscar Autos</button>
+          <button type="button" id="btnBuscaC">Buscar Camionetas</button>
+        </td> 
+      </thead>
+      <tbody id="tblVehiculos"></tbody>
+    </table>
+    <div id="total"></div>
+    <script src="usados.js"></script>
+  </body>  
+</html>

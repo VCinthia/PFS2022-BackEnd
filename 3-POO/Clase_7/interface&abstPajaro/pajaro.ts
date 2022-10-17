@@ -1,4 +1,4 @@
-import Animal from './animal'
+import Animal from './animal';
 import interfaceParque from './interfaceParque';
 
 export default class Pajaro extends Animal implements interfaceParque{
@@ -56,10 +56,10 @@ export default class Pajaro extends Animal implements interfaceParque{
              return this.energia;
     }
     setEnergia(energia: number): void {
-        throw new Error('Method not implemented.');
+        this.energia = energia;
     }
     getEnergiaDormir(): number {
-        throw new Error('Method not implemented.');
+        return this.getEnergiaDormir();
     }
     setEnergiaDormir(eDormir: number): void {
         throw new Error('Method not implemented.');
